@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(157, 157, 173)
+}
+
+#title {
+    text-align: center
+}
+
+#main {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    height: auto;
+}
+
+#description {
+    padding-top: 10px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(8 auto);
+    width: 100%;
+    height: auto;
+    grid-gap: 20px 20px;
+    margin: 20px auto;
+}
+
+.justify-start {
+    justify-self: start;
+    text-align: start;
+}
+
+.justify-end {
+    justify-self: end;
+    text-align: end;
+}
+
+input[type="text"], input[type="email"], input[type="number"]{ 
+    padding: 8px;
+    width: 300px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    margin-top: 8px;
+}
+
+#dropdown {
+    width: 200px;
+    padding: 8px;
+}
+
+
+#submit {
+    background-color: rgb(157, 157, 173);
+    color: black;
+    padding: 10px 0;
+    width: 100px;
+    border-radius: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgba(157, 157, 173, 0.5);
+}
